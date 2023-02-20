@@ -14,6 +14,8 @@ NAME	= 	libft.a
 
 ####FILES####
 
+SRC_DIR = ./src
+
 SRC		= 	ft_bzero.c ft_isalnum.c ft_isalpha.c ft_isascii.c ft_isdigit.c \
 		  	ft_isprint.c ft_memchr.c ft_memcpy.c ft_memmove.c ft_memset.c \
 			ft_strchr.c	ft_strlcat.c ft_strlcpy.c ft_strlen.c ft_strncmp.c \
@@ -27,9 +29,9 @@ BONUS	=	ft_lstnew_bonus.c ft_lstadd_front_bonus.c ft_lstsize_bonus.c \
 			ft_lstlast_bonus.c ft_lstadd_back_bonus.c ft_lstdelone_bonus.c \
 			ft_lstclear_bonus.c ft_lstiter_bonus.c ft_lstmap_bonus.c
 
-OBJ 	= 	$(SRC:%.c=%.o)
+OBJ 	= 	$(addprefix $(SRC_DIR)/, ${SRCS:.c=.o})
 
-OBJB	=	$(BONUS:%.c=%.o)
+OBJB	=	$(addprefix $(SRC_DIR)/, ${BONUS:%.c=%.o})
 
 ####COMPILE####
 
