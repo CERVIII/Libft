@@ -1,4 +1,4 @@
-### README.md for CERVIII/Libft
+## PROJECT LIBFT
 
 #### Project Description
 The `libft` project is part of the 42 school. It is a custom implementation of the standard C library, providing a set of common C functions that are often needed in programming.
