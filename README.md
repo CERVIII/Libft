@@ -23,3 +23,7 @@ Link the compiled library when building your project:
 ```bash
 gcc -o my_program my_program.c -L. -lft
 ```
+
+## Project Statement
+
+For more details, refer to the [project statement](es.subject.pdf).
