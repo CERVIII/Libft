@@ -26,4 +26,4 @@ gcc -o my_program my_program.c -L. -lft
 
 ## Project Statement
 
-For more details, refer to the [project statement](es.subject.pdf).
+For more details, refer to the [subject](es.subject.pdf).
